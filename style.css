@@ -1,0 +1,105 @@
+  * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      body {
+        width: 100%;
+        min-height: 100vh;
+        background-color:  #6fba82;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .budget-container {
+        width: 100%;
+        max-width: 750px;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+      }
+      .header-section {
+        background: #2a6dd1;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .header-section h1 {
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      .input-section {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        flex-wrap: wrap;
+      }
+      .card {
+        flex: 1;
+        min-width: 280px;
+        background: #f4f6f8;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .card h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+      .card input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+      }
+      .btn {
+        width: 100%;
+        height: 40px;
+        background: #3a8ef6;
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background: #2a6dd1;
+      }
+
+      .summary-section {
+        background: #2a6dd1;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 18px;
+      }
+      .summary-section p {
+        font-weight: bold;
+      }
+
+      .expense-list {
+        padding: 20px;
+        max-height: 250px;
+        overflow-y: auto;
+      }
+      .expense-item {
+        display: flex;
+        justify-content: space-between;
+        background: #f1f1f1;
+        padding: 12px 15px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+      }

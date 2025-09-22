@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <body>
+    <div class="budget-container">
+      <div class="header-section">
+        <h1>Budget Tracker</h1>
+      </div>
+
+      <div class="input-section">
+        <!-- Budget Input -->
+        <div class="card">
+          <h3>Set Budget</h3>
+          <input
+            type="number"
+            placeholder="Enter budget amount"
+            id="amount-field"
+          />
+          <button class="btn" id="add-amount">Add Budget</button>
+        </div>
+
+        <!-- Expense Input -->
+        <div class="card">
+          <h3>Add Expense</h3>
+          <input type="text" placeholder="Item name" id="add-item" />
+          <input type="number" placeholder="Amount" id="item-price" />
+          <button class="btn" id="add-expenses-btn">Add Expense</button>
+        </div>
+      </div>
+
+      <div class="summary-section">
+        <p id="total-amount">Total: Rs. 0</p>
+        <p id="balance">Balance: Rs. 0</p>
+      </div>
+
+      <div class="expense-list"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
